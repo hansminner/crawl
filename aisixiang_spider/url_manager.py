@@ -1,3 +1,5 @@
+# coding=utf-8
+
 # url管理器
 class UrlManager(object):
     def __init__(self):
@@ -11,10 +13,10 @@ class UrlManager(object):
         if url not in self.new_urls and url not in self.old_urls:
             self.new_urls.add(url)
 
-    def add_new_urls(self, new_urls):
-        if new_urls is None or len(new_urls) == 0:
+    def add_new_urls(self, urls):
+        if urls is None or len(urls) == 0:
             return
-        for url in new_urls:
+        for url in urls:
             self.add_new_url(url)
 
     # 判断时候新url
