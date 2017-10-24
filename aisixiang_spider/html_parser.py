@@ -24,22 +24,17 @@ class HtmlParser(object):
             new_url = link['href']
             new_full_url = parse.urljoin(page_url, new_url)
             new_urls.add(new_full_url)
-
+        print(['html_p', new_urls])
         return new_urls
 
     # 解析数据
     def _get_new_data(self, page_url, soup):
         res_data = {}
-
         # url
         res_data['url'] = page_url
-
-        title_node = soup.find('h3')
-
-        # title_node = soup.find('div', class_="show_text").find("h3")
+        # title_node = soup.find('h3')
+        title_node = soup.find('div', class_="show_text").find("h3")
         res_data['title'] = title_node.get_text()
-
         summary_node = soup.find('div', id="content2")
         res_data['summary'] = summary_node.get_text()
         return res_data
-

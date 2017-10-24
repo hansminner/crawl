@@ -25,14 +25,16 @@ class SpiderMain(object):
             # 异常处理
             try:
                 new_url = self.urls.get_new_url()
+                # print(new_url)
                 # 下载好的页面数据
                 html_cont = self.downloader.download(new_url)
+                # html_cont = self.downloader.download('http://www.aisixiang.com/thinktank/yangguangbin.html')
                 new_urls, new_data = self.parser.parse(new_url, html_cont)
                 self.urls.add_new_urls(new_urls)
                 # 收集数据
                 self.outputer.collect_data(new_data)
 
-                if count == 1000:
+                if count == 10:
                     break
 
                 count = count + 1
