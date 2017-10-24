@@ -24,7 +24,7 @@ class HtmlParser(object):
             new_url = link['href']
             new_full_url = parse.urljoin(page_url, new_url)
             new_urls.add(new_full_url)
-        print(['html_p', new_urls])
+        # print(['html_p', new_urls])
         return new_urls
 
     # 解析数据

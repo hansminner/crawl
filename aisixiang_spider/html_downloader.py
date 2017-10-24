@@ -9,8 +9,8 @@ class HtmlDownloader(object):
         if new_url is None:
             return None
 
-        # response = request.urlopen('http://www.aisixiang.com/data/79807.html')
         print(['html_d', new_url])
+
         response = request.urlopen(new_url)
 
         if response.getcode() != 200:
@@ -18,12 +18,3 @@ class HtmlDownloader(object):
         return response.read()
 
 
-"""
- def download(self, url):
-        if url is None:
-            return None
-        response = urllib2.urlopen(url)
-        if response.getcode() != 200:
-            return None
-        return response.read()
-        """
