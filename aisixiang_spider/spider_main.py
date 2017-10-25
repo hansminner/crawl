@@ -1,6 +1,8 @@
 # coding=utf-8
 
 # alt+enter 快速创建方法和类 self指的是描述符类的实例
+import time
+
 from aisixiang_spider import url_manager, html_downloader, html_parser, html_outputer
 
 
@@ -27,6 +29,7 @@ class SpiderMain(object):
                 new_url = self.urls.get_new_url()
                 # 下载好的页面数据
                 # new_url 不对
+                # print(new_url)
                 html_cont = self.downloader.download(new_url)
                 new_urls, new_data = self.parser.parse(new_url, html_cont)
                 self.urls.add_new_urls(new_urls)

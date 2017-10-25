@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fbfaac8-85fd-4440-b7d4-3e6281471fbb" name="默认的" comment="">
+    <list default="true" id="7fbfaac8-85fd-4440-b7d4-3e6281471fbb" name="默认的" comment="test">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aisixiang_spider/right-url.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aisixiang_spider/temp.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aisixiang_spider/html_downloader.py" afterPath="$PROJECT_DIR$/aisixiang_spider/html_downloader.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aisixiang_spider/html_outputer.py" afterPath="$PROJECT_DIR$/aisixiang_spider/html_outputer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aisixiang_spider/html_parser.py" afterPath="$PROJECT_DIR$/aisixiang_spider/html_parser.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aisixiang_spider/spider_main.py" afterPath="$PROJECT_DIR$/aisixiang_spider/spider_main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aisixiang_spider/url_manager.py" afterPath="$PROJECT_DIR$/aisixiang_spider/url_manager.py" />
     </list>
@@ -17,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/crawl$spider_main.coverage" NAME="spider_main Coverage Results" MODIFIED="1508838644175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aisixiang_spider" />
+    <SUITE FILE_PATH="coverage/crawl$spider_main.coverage" NAME="spider_main Coverage Results" MODIFIED="1508913411808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aisixiang_spider" />
     <SUITE FILE_PATH="coverage/crawl$test_urllib.coverage" NAME="test_urllib Coverage Results" MODIFIED="1508739241279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo_urllib" />
     <SUITE FILE_PATH="coverage/crawl$test_bs4.coverage" NAME="test_bs4 Coverage Results" MODIFIED="1508747179276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo_urllib" />
   </component>
@@ -26,9 +26,11 @@
       <file leaf-file-name="spider_main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aisixiang_spider/spider_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-              <folding />
+            <state relative-caret-position="306">
+              <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+              <folding>
+                <element signature="e#52#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,10 +38,71 @@
       <file leaf-file-name="url_manager.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aisixiang_spider/url_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="67" column="34" lean-forward="true" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
+            <state relative-caret-position="302">
+              <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
               <folding>
                 <element signature="e#25#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="request.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Program Files/python/Lib/urllib/request.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="726" column="19" lean-forward="false" selection-start-line="726" selection-start-column="10" selection-end-line="726" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="temp.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aisixiang_spider/temp.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <folding>
+                <element signature="e#4709#4715#0" expanded="true" />
+                <element signature="e#5226#5232#0" expanded="true" />
+                <element signature="e#5432#5438#0" expanded="true" />
+                <element signature="e#5582#5588#0" expanded="true" />
+                <element signature="e#6599#6605#0" expanded="true" />
+                <element signature="e#6605#6611#0" expanded="true" />
+                <element signature="e#6611#6617#0" expanded="true" />
+                <element signature="e#6617#6623#0" expanded="true" />
+                <element signature="e#6623#6629#0" expanded="true" />
+                <element signature="e#6629#6635#0" expanded="true" />
+                <element signature="e#6635#6641#0" expanded="true" />
+                <element signature="e#6641#6647#0" expanded="true" />
+                <element signature="e#6761#6767#0" expanded="true" />
+                <element signature="e#6767#6773#0" expanded="true" />
+                <element signature="e#6773#6779#0" expanded="true" />
+                <element signature="e#6779#6785#0" expanded="true" />
+                <element signature="e#6785#6791#0" expanded="true" />
+                <element signature="e#6791#6797#0" expanded="true" />
+                <element signature="e#6797#6803#0" expanded="true" />
+                <element signature="e#6803#6809#0" expanded="true" />
+                <element signature="e#7028#7034#0" expanded="true" />
+                <element signature="e#7034#7040#0" expanded="true" />
+                <element signature="e#7040#7046#0" expanded="true" />
+                <element signature="e#7046#7052#0" expanded="true" />
+                <element signature="e#7052#7058#0" expanded="true" />
+                <element signature="e#7058#7064#0" expanded="true" />
+                <element signature="e#7064#7070#0" expanded="true" />
+                <element signature="e#7070#7076#0" expanded="true" />
+                <element signature="e#10907#10913#0" expanded="true" />
+                <element signature="e#10914#10920#0" expanded="true" />
+                <element signature="e#11197#11203#0" expanded="true" />
+                <element signature="e#11419#11425#0" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#12059#12063#0" expanded="true" />
+                <element signature="e#25535#25539#0" expanded="true" />
+                <element signature="e#25539#25543#0" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#35678#35684#0" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,9 +111,11 @@
       <file leaf-file-name="html_downloader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aisixiang_spider/html_downloader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="216">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="e#16#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,8 +123,8 @@
       <file leaf-file-name="html_parser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aisixiang_spider/html_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+            <state relative-caret-position="14">
+              <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
               <folding>
                 <element signature="e#16#25#0" expanded="true" />
               </folding>
@@ -77,14 +142,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="right-url.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aisixiang_spider/right-url.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1440">
+              <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="output.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aisixiang_spider/output.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-914">
-              <caret line="43" column="2" lean-forward="true" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
-              <folding>
-                <marker date="1508838508442" expanded="true" signature="18436:18440" ph="..." />
-              </folding>
+            <state relative-caret-position="1344">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,6 +168,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -110,11 +184,14 @@
       <find>new_urls</find>
       <find>python3\</find>
       <find>print(</find>
-      <find>print</find>
       <find>addh</find>
       <find>addheaders</find>
       <find>request</find>
       <find>105001</find>
+      <find>88046</find>
+      <find>print</find>
+      <find>characters</find>
+      <find>character</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,12 +204,15 @@
         <option value="$PROJECT_DIR$/demo_urllib/test_bs4.py" />
         <option value="$PROJECT_DIR$/aisixiang_spider/url_manage.py" />
         <option value="$PROJECT_DIR$/aisixiang_spider/html_output.py" />
-        <option value="$PROJECT_DIR$/aisixiang_spider/html_parser.py" />
-        <option value="$PROJECT_DIR$/aisixiang_spider/output.html" />
-        <option value="$PROJECT_DIR$/aisixiang_spider/url_manager.py" />
         <option value="$PROJECT_DIR$/aisixiang_spider/html_outputer.py" />
-        <option value="$PROJECT_DIR$/aisixiang_spider/spider_main.py" />
+        <option value="$PROJECT_DIR$/aisixiang_spider/output.html" />
+        <option value="$PROJECT_DIR$/aisixiang_spider/d.py" />
         <option value="$PROJECT_DIR$/aisixiang_spider/html_downloader.py" />
+        <option value="$PROJECT_DIR$/aisixiang_spider/right-url.py" />
+        <option value="$PROJECT_DIR$/aisixiang_spider/html_parser.py" />
+        <option value="$PROJECT_DIR$/aisixiang_spider/spider_main.py" />
+        <option value="$PROJECT_DIR$/aisixiang_spider/temp.html" />
+        <option value="$PROJECT_DIR$/aisixiang_spider/url_manager.py" />
       </list>
     </option>
   </component>
@@ -164,8 +244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,26 +251,19 @@
               <item name="crawl" type="b2602c69:ProjectViewProjectNode" />
               <item name="crawl" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="crawl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="aisixiang_spider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="demo_urllib" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spider_baike-master" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -304,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508831091823</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <created>1508844984281</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1508844984294</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -319,18 +397,17 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26609442" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2253194" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3646922" sideWeight="0.50214595" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868758" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3472706" sideWeight="0.49785408" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868758" sideWeight="0.49785408" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26233906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868758" sideWeight="0.49785408" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39140534" sideWeight="0.49785408" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -341,6 +418,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329849" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,11 +438,31 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/aisixiang_spider/output.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="43" column="2" lean-forward="true" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aisixiang_spider/url_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aisixiang_spider/spider_main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#52#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -400,7 +498,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#16#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -408,7 +508,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#52#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -444,7 +546,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#16#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -452,7 +556,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#52#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -488,7 +594,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="e#16#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -578,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -586,35 +693,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="120" column="39" lean-forward="true" selection-start-line="120" selection-start-column="39" selection-end-line="120" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files/python/Lib/urllib/request.py">
+    <entry file="file://$PROJECT_DIR$/aisixiang_spider/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="659" column="36" lean-forward="false" selection-start-line="659" selection-start-column="36" selection-end-line="659" selection-end-column="36" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aisixiang_spider/output.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-914">
-          <caret line="43" column="2" lean-forward="true" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
-          <folding>
-            <marker date="1508838508442" expanded="true" signature="18436:18440" ph="..." />
-          </folding>
+        <state relative-caret-position="1344">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aisixiang_spider/html_parser.py">
+    <entry file="file://$PROJECT_DIR$/aisixiang_spider/right-url.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1440">
+          <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -626,26 +728,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/aisixiang_spider/html_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="e#16#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aisixiang_spider/temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="e#4709#4715#0" expanded="true" />
+            <element signature="e#5226#5232#0" expanded="true" />
+            <element signature="e#5432#5438#0" expanded="true" />
+            <element signature="e#5582#5588#0" expanded="true" />
+            <element signature="e#6599#6605#0" expanded="true" />
+            <element signature="e#6605#6611#0" expanded="true" />
+            <element signature="e#6611#6617#0" expanded="true" />
+            <element signature="e#6617#6623#0" expanded="true" />
+            <element signature="e#6623#6629#0" expanded="true" />
+            <element signature="e#6629#6635#0" expanded="true" />
+            <element signature="e#6635#6641#0" expanded="true" />
+            <element signature="e#6641#6647#0" expanded="true" />
+            <element signature="e#6761#6767#0" expanded="true" />
+            <element signature="e#6767#6773#0" expanded="true" />
+            <element signature="e#6773#6779#0" expanded="true" />
+            <element signature="e#6779#6785#0" expanded="true" />
+            <element signature="e#6785#6791#0" expanded="true" />
+            <element signature="e#6791#6797#0" expanded="true" />
+            <element signature="e#6797#6803#0" expanded="true" />
+            <element signature="e#6803#6809#0" expanded="true" />
+            <element signature="e#7028#7034#0" expanded="true" />
+            <element signature="e#7034#7040#0" expanded="true" />
+            <element signature="e#7040#7046#0" expanded="true" />
+            <element signature="e#7046#7052#0" expanded="true" />
+            <element signature="e#7052#7058#0" expanded="true" />
+            <element signature="e#7058#7064#0" expanded="true" />
+            <element signature="e#7064#7070#0" expanded="true" />
+            <element signature="e#7070#7076#0" expanded="true" />
+            <element signature="e#10907#10913#0" expanded="true" />
+            <element signature="e#10914#10920#0" expanded="true" />
+            <element signature="e#11197#11203#0" expanded="true" />
+            <element signature="e#11419#11425#0" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#12059#12063#0" expanded="true" />
+            <element signature="e#25535#25539#0" expanded="true" />
+            <element signature="e#25539#25543#0" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#35678#35684#0" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aisixiang_spider/html_downloader.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#16#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/python/Lib/urllib/request.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <caret line="726" column="19" lean-forward="false" selection-start-line="726" selection-start-column="10" selection-end-line="726" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aisixiang_spider/spider_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="306">
+          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <folding>
+            <element signature="e#52#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aisixiang_spider/url_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="67" column="34" lean-forward="true" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
+        <state relative-caret-position="302">
+          <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
           <folding>
             <element signature="e#25#34#0" expanded="true" />
           </folding>

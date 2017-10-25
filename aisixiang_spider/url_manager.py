@@ -37,15 +37,24 @@ class UrlManager(object):
                 response = request.urlopen(req, timeout=10000)
             except ZeroDivisionError:
                 print('failded')
-
+            # read()读取数据出来编码是 bytes需要转换为utf-8
             html_cont = response.read()
             soup = BeautifulSoup(html_cont, 'html.parser', from_encoding='gb2312')
+            # print(soup)
             links = soup.find_all('a', href=re.compile("/data/\d+\.html"))
+            # print(links)
+            count = 1
             for link in links:
+                if count == 2:
+                    break
+                count = count + 1
                 new_url = link['href']
                 new_full_url = parse.urljoin(url, new_url)
+                print(new_full_url)
                 self.new_urls.add(new_full_url)
-            """"""
+
+            """            """
+
             # self.new_urls.add(url)
             # print(['url_mgr', self.new_urls])
 
@@ -64,6 +73,7 @@ class UrlManager(object):
     def get_new_url(self):
         # dui
         new_url = self.new_urls.pop()
+        # print(self.new_urls) 空
         # dui
         self.old_urls.add(new_url)
         return new_url

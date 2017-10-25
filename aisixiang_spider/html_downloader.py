@@ -2,6 +2,8 @@
 
 from urllib import request
 
+import time
+
 
 class HtmlDownloader(object):
     # 下载器 new_url 要下载的url
@@ -9,7 +11,9 @@ class HtmlDownloader(object):
         if new_url is None:
             return None
 
-        print(['html_d', new_url])
+        # print(['html_d', new_url])
+
+        # time.sleep(5)
 
         response = request.urlopen(new_url)
 
