@@ -16,7 +16,6 @@ class HtmlOutputer(object):
 
 
         fout = open('output.html', 'w', encoding='UTF-8')
-        # fout = open('output.html', 'w', encoding='gbk')
         fout.write("<html>")
         fout.write("<head><meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\"></head>")
         fout.write("<body>")
