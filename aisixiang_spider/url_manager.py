@@ -18,7 +18,7 @@ class UrlManager(object):
         if url is None:
             return
         if url not in self.new_urls and url not in self.old_urls:
-            """
+            # """
             header = {
                 'Accept-Charset': 'GBK,utf-8;q=0.7,*;q=0.3',
                 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -41,22 +41,18 @@ class UrlManager(object):
             # read()读取数据出来编码是 bytes需要转换为utf-8
             html_cont = response.read()
             soup = BeautifulSoup(html_cont, 'html.parser', from_encoding='gb2312')
-            # print(soup)
             # 如果只想搜索tag的直接子节点,可以使用参数 recursive=False
             links = soup.find_all('a', href=re.compile("/data/\d+\.html"))
-            # print(links)
             count = 1
             for link in links:
-                # if count == 2:
-                #     break
-                # count = count + 1
+                count = count + 1
+                print(count)
                 new_url = link['href']
                 new_full_url = parse.urljoin(url, new_url)
                 # print(new_full_url)
                 self.new_urls.add(new_full_url)
-            """
-            self.new_urls.add(url)
-            print(['url_mgr', self.new_urls])
+            # self.new_urls.add(url)
+            # print(['url_mgr', self.new_urls])
 
     # 判断时候新url
     def has_new_url(self):
@@ -64,10 +60,7 @@ class UrlManager(object):
 
     # 获取新的url
     def get_new_url(self):
-        # dui
         new_url = self.new_urls.pop()
-        # print(self.new_urls) 空
-        # dui
         self.old_urls.add(new_url)
         return new_url
 

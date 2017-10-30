@@ -11,9 +11,8 @@ class HtmlDownloader(object):
         if new_url is None:
             return None
 
-        # print(['html_d', new_url])
-
-        # time.sleep(5)
+        # 避免出现503错误
+        time.sleep(3)
 
         response = request.urlopen(new_url)
 

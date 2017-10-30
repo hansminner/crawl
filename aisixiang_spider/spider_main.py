@@ -28,13 +28,12 @@ class SpiderMain(object):
             try:
                 new_url = self.urls.get_new_url()
                 # 下载好的页面数据
-                # new_url 不对
-                # print(new_url)
                 html_cont = self.downloader.download(new_url)
-                print(html_cont),
-                return
                 new_urls, new_data = self.parser.parse(new_url, html_cont)
-                self.urls.add_new_urls(new_urls)
+
+                # 关键 错误原因
+                # self.urls.add_new_urls(new_urls)
+
                 # 收集数据
                 self.outputer.collect_data(new_data)
 
