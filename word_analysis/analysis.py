@@ -17,7 +17,7 @@ a=jieba.analyse.extract_tags(sentence, topK = 20, withWeight = False, allowPOS =
 # allowPOS:仅包括指定词性的词，默认值为空，即不进行筛选。
 """
 comment_text = jieba.cut(open('output.txt', 'r', encoding='utf-8').read(), cut_all=False)
-# 必须使用join两个字符连接直接传会报错
+# 必须使用join两个字符连接直接传会报错 转变类型为list
 comment_text_1 = "".join(comment_text)
 # 通用停用词
 jieba.analyse.set_stop_words('stopword.txt')
@@ -42,6 +42,7 @@ cloud = WordCloud(
 # data = [open('output.txt', 'r', encoding='utf-8').read()]
 # print(data[:10])
 # wc = Counter(data)  # 基于Counter自定义的子类（留作业：结巴分词、停用词）
+    fit_words(dict_fre) 参数是单词和出现的频率
 # wordcloud = WordCloud(background_color="white", width=600, height=400, margin=5).fit_words(dict_fre)
 """
 wordcloud = WordCloud(background_color="white", width=5000, height=5000, margin=5).generate(cut_text)
